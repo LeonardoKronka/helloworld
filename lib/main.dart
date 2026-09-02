@@ -72,9 +72,7 @@ class _LocalizacaoPageState extends State<LocalizacaoPage> {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-      appBar: AppBar(
-        title: const Text('Distância até minha casa'),
-      ),
+      appBar: AppBar(title: const Text('Distância até minha casa')),
       body: Center(
         child: Padding(
           padding: const EdgeInsets.all(20),
@@ -82,21 +80,14 @@ class _LocalizacaoPageState extends State<LocalizacaoPage> {
             mainAxisAlignment: MainAxisAlignment.center,
             crossAxisAlignment: CrossAxisAlignment.center,
             children: [
-              const Icon(
-                Icons.home,
-                size: 80,
-                color: Colors.blue,
-              ),
+              const Icon(Icons.home, size: 80, color: Colors.blue),
 
               const SizedBox(height: 20),
 
               const Text(
                 'Distância entre a escola e minha casa',
                 textAlign: TextAlign.center,
-                style: TextStyle(
-                  fontSize: 24,
-                  fontWeight: FontWeight.bold,
-                ),
+                style: TextStyle(fontSize: 24, fontWeight: FontWeight.bold),
               ),
 
               const SizedBox(height: 30),
